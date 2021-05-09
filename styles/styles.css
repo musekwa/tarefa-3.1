@@ -1,0 +1,124 @@
+
+
+.navbar {
+    height: 90px;
+    background-color: #363636;
+}
+
+.menus > a {
+    margin: 0 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #949494;
+}
+
+.menu-principal {
+    text-align: center;
+}
+
+.admin > .titulo {
+    text-align: center;
+    margin-top: 80px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.access {
+    width: 140px;
+    height: 150px;
+    background-color: #363636;
+    font-weight: 500;
+    margin: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: #949494;
+}
+
+.access:hover {
+    color: #949494;
+}
+
+#animalecs {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    margin: 0 auto;    
+}
+
+.membros {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.headings {
+    background-color: #363636;
+    color: #949494;
+    font-weight: 500;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.membros-span {
+    width: 150px;
+}
+
+
+
+.headings, .record {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 10px;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn {
+   color:  #949494; 
+}
+
+.fas, .far {
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        display: none;
+    }
+
+    .menus {
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .headings {
+        height: 60px;
+    }
+
+    .membros {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    
+    .membros-span {
+        width: 100%;
+    }
+    
+}
